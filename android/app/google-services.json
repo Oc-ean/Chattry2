@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "688459024743",
+    "project_id": "chattry-app",
+    "storage_bucket": "chattry-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688459024743:android:890e9057e56e52306387c2",
+        "android_client_info": {
+          "package_name": "com.example.chattry_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688459024743-cngbo4ovhdkvm8vg53n8tu416ua2eies.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuEXdFvnFk_LCOq8iCNE9OFl15RKuAWfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688459024743-cngbo4ovhdkvm8vg53n8tu416ua2eies.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
