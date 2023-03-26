@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // UserModel userModel = Provider.of<UserProvider>(context).getUser;
+    UserModel? userModel = Provider.of<UserProvider>(context).getUser;
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(65.0),
@@ -214,7 +214,9 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(
               height: 15,
             ),
-            ListView.builder(
+            userModel == null
+                ? const CircularProgressIndicator()
+                : ListView.builder(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
                 itemCount: 7,

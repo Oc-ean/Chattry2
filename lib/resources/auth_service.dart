@@ -15,6 +15,7 @@ class AuthService {
         .collection('users')
         .doc(currentUser.uid)
         .get();
+    print(documentSnapshot);
     return UserModel.fromSnap(documentSnapshot);
   }
 

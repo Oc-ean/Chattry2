@@ -32,7 +32,7 @@ class UserModel {
       email: documentSnapShot['email'],
       uid: documentSnapShot['uid'],
       photoUrl: documentSnapShot['photoUrl'],
-      userName: documentSnapShot['userName'],
+      userName: documentSnapShot['username'],
       bio: documentSnapShot['bio'],
       followers: documentSnapShot['followers'],
       following: documentSnapShot['following'],
